@@ -1,0 +1,132 @@
+
+ /* cabanas-map.js*/
+ 
+ .cabanas-map-content {
+    height: 100vh;
+    background: linear-gradient(to top, #33ccff 0%, #ff5050 100%);
+ }
+
+ .navigate {
+    margin-top: 15px;
+    margin-left: 5px;
+ }
+
+ .map-content {
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    left: 20%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+ }
+
+ .upload-section {
+    position: relative;
+ }
+
+ .upload-input {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    height: 40px;
+    width: 100px;
+ }
+
+ .btn-modified {
+    color: white;
+    border-color: white;
+ }
+
+ .results {
+    margin-top: 40px;
+    font-size: 22px;;
+ }
+
+ .circleElement {
+    background-color: rgba(163,0,0,0.7);
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1
+ }
+
+.cabanaView {
+    margin-top: 20px;
+    display: block;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.cabana-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Cabanas-resources.js*/
+
+.cabanas-resource-content {
+    height: 100vh;
+    background: linear-gradient(to top, #3366ff 0%, #ff0000 100%);
+}
+
+.resource-content {
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    left: 20%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+ }
+
+ .markerElement {
+    display: block;
+    background-color: #00cd00;
+    border: 2px solid white;
+    position: absolute;
+    z-index: 1
+ }
+
+/* Cabanas.js*/
+.main {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #0033cc -1%, #ff99cc 100%);
+    color: white;
+}
+
+.content {
+    position: absolute;
+    width: 40%;
+    top: 40%;
+    left: 30%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+}
+
+.box {
+    margin-top: 3em;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    color: white;
+}
+
+.box:hover {
+-webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.move-right {
+    margin-left: 25px;
+}
