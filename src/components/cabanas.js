@@ -8,7 +8,7 @@ class Cabanas extends Component {
             <div className="container-fluid main">
                 <div className="content">
                     <div className="row">
-                        <h4 className="text-center">Choose you selection</h4>
+                        <h4 className="text-center">Choose your selection</h4>
                     </div>
                     <div className="row">
                         <div className="col-md-6">
